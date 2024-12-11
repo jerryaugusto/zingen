@@ -84,6 +84,13 @@ h3 {
 a {
 	text-decoration: none;
 	color: inherit;
+
+	&:hover {
+		background: var(--brand-color-gradient);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+	}
 }
 
 ul[role="list"] {

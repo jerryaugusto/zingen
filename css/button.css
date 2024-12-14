@@ -5,7 +5,8 @@
 	border: 0;
 
 	display: flex;
-	place-items: center; /* align + justify */
+	align-items: center;
+	justify-content: center;
 	width: fit-content;
 
 	border-radius: 0.5rem;
@@ -50,7 +51,7 @@
 		content: "";
 		position: absolute;
 		border-radius: inherit;
-		inset: 1.5px;
+		inset: 1px;
 		background-color: var(--bg-color);
 	}
 
